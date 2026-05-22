@@ -39,7 +39,6 @@ st.title("🎈 My new app")
     </style>
 </head>
 <body>
-
     <div class="container">
         <h2>🎲 Game Tebak Angka 🎲</h2>
         <p>Aku sedang memikirkan angka antara <b>1 sampai 10</b>.</p>
@@ -50,7 +49,6 @@ st.title("🎈 My new app")
 
         <p id="pesan" style="color: #333;"></p>
     </div>
-
     <script>
         // Komputer memilih angka acak antara 1 sampai 10 saat game dimulai
         let angkaRahasia = Math.floor(Math.random() * 10) + 1;
@@ -66,7 +64,6 @@ st.title("🎈 My new app")
                 pesan.style.color = "red";
                 return;
             }
-
             let tebakan = Number(input);
             jumlahTebakan++;
 
@@ -92,6 +89,5 @@ st.title("🎈 My new app")
             }
         }
     </script>
-
 </body>
 </html>
