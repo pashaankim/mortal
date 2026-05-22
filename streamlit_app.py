@@ -10,9 +10,7 @@ st.title("🎈 My new app")
             background-color: #f0f2f5;
             font-family: Arial, sans-serif;
             text-align: center;
-            padding-top: 50px;
-        }
-        .container {
+            padding-top: 50px;}.container {
             background: white;
             padding: 30px;
             border-radius: 10px;
